@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Welcome</title>
+	<title>go away</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,8 +13,6 @@
 			<a href="#" class="hide-desktop">
 				<img src="images/menu.svg" alt="toggle menu" class="menu" id="menu">
 			</a>
-
-			<!-- <img src="images/logo.svg" alt="23andfour logo" class="logo"> -->
 		</header>
 		<section>
 			<img src="images/MGLogo.svg" alt="matt gannon logo" class="MGlogo">
@@ -34,8 +32,8 @@
 
 	</div>
 	<div class="container">
-		<h1>Who is Matt Gannon</h1>
-		<p class="subtext">Matt Gannon is a mobile software developer from Washington, D.C.</p>
+		<h1>What is Matt Gannon</h1>
+		<p class="subtext">Matt Gannon is a mobile software developer from Washington, D.C., and a fucking god among men</p>
 
 	</div>
 	<div class="bio-container">
@@ -88,6 +86,25 @@
 		</div>
 		<div class="flat-bottom"></div>
 	</footer>
+
+	<script type="text/javascript">
+
+		var menu = document.getElementById('menu');
+		var nav = document.getElementById('nav');
+		var exit = document.getElementById('exit');
+
+		menu.addEventListener('click', function(e) {
+			nav.classList.toggle('hide-mobile');
+			e.preventDefault();
+		});
+
+		exit.addEventListener('click', function(e) {
+			nav.classList.add('hide-mobile');
+			e.preventDefault();
+		});
+
+		
+	</script>
 
 </body>
 </html>

@@ -37,12 +37,15 @@ header {
 
 .menu {
 	width: 25px;
-	margin-top: 45%;
+	margin-top: 10%;
+	position: fixed;
+	z-index: 10;
+	right: 1em;
 }
 
 .MGlogo {
 	width: 70%;
-	margin: -15%;
+	margin: 10% -15% -15%;
 }
 
 h1, .subtext {
